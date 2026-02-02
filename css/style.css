@@ -17,11 +17,12 @@ section {
   flex-direction: column;
   justify-content: center;
 
+  /* background image (image is in root folder) */
   background-image: linear-gradient(
       rgba(2, 6, 23, 0.7),
       rgba(2, 6, 23, 0.7)
     ),
-    url("../assets/images/bg.jpg");
+    url("../bg.jpg");
 
   background-size: cover;
   background-position: center;
