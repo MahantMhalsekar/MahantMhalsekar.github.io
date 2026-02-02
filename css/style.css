@@ -22,7 +22,7 @@ section {
       rgba(2, 6, 23, 0.7),
       rgba(2, 6, 23, 0.7)
     ),
-    url("../bg.jpg");
+    url("../assets/images/bg.jpg");
 
   background-size: cover;
   background-position: center;
