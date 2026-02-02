@@ -2,15 +2,15 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #0f172a;
-  color: #e5e7eb;   /* main text color */
+  background: #f8fafc;        /* light background */
+  color: #0f172a;             /* dark text */
 }
 
 section {
   padding: 60px 10%;
 }
 
-/* HERO SECTION WITH BACKGROUND IMAGE */
+/* HERO SECTION WITH LIGHT OVERLAY IMAGE */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -18,8 +18,8 @@ section {
   justify-content: center;
 
   background-image: linear-gradient(
-      rgba(2, 6, 23, 0.75),
-      rgba(2, 6, 23, 0.75)
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
     ),
     url("../assets/images/bg.jpg");
 
@@ -31,16 +31,16 @@ section {
 /* HERO TEXT */
 .hero h1 {
   font-size: 3rem;
-  color: #e5e7eb;
+  color: #0f172a;
 }
 
 .hero h2 {
-  color: #38bdf8;   /* accent color */
+  color: #2563eb;
   margin: 10px 0;
 }
 
 .hero p {
-  color: #cbd5f5;
+  color: #475569;
   max-width: 600px;
 }
 
@@ -50,8 +50,8 @@ section {
   margin-top: 20px;
   margin-right: 12px;
   padding: 12px 22px;
-  background: #38bdf8;
-  color: #020617;
+  background: #2563eb;
+  color: #ffffff;
   border-radius: 8px;
   font-weight: bold;
   text-decoration: none;
@@ -59,7 +59,7 @@ section {
 }
 
 .hero a:hover {
-  background: #0ea5e9;
+  background: #1d4ed8;
 }
 
 /* MOBILE */
