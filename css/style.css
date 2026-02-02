@@ -22,3 +22,8 @@ a {
   text-decoration: none;
   margin-right: 10px;
 }
+@media (max-width: 768px) {
+  section {
+    padding: 40px 6%;
+  }
+}
