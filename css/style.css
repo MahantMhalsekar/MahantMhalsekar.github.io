@@ -10,18 +10,32 @@ section {
   padding: 60px 10%;
 }
 
+/* HERO SECTION WITH BACKGROUND IMAGE */
 .hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  background-image: linear-gradient(
+      rgba(2, 6, 23, 0.7),
+      rgba(2, 6, 23, 0.7)
+    ),
+    url("../assets/images/bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* LINKS */
 a {
   color: #38bdf8;
   text-decoration: none;
   margin-right: 10px;
 }
+
+/* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   section {
     padding: 40px 6%;
