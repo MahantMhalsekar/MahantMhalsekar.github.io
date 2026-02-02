@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin-right: 10px;
+}
