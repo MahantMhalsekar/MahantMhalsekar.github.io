@@ -17,7 +17,6 @@ section {
   flex-direction: column;
   justify-content: center;
 
-  /* background image (image is in root folder) */
   background-image: linear-gradient(
       rgba(2, 6, 23, 0.7),
       rgba(2, 6, 23, 0.7)
@@ -27,18 +26,26 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 5px solid red;
-
 }
 
-/* LINKS */
-a {
-  color: #38bdf8;
-  text-decoration: none;
+/* BUTTON STYLING (APPLIES TO BOTH LINKS) */
+.hero a {
+  display: inline-block;
+  margin-top: 15px;
   margin-right: 10px;
+  padding: 10px 18px;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-/* MOBILE RESPONSIVE */
+.hero a:hover {
+  opacity: 0.9;
+}
+
+/* MOBILE */
 @media (max-width: 768px) {
   section {
     padding: 40px 6%;
