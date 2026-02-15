@@ -2,8 +2,8 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f1f5f9;        /* updated professional background */
-  color: #0f172a;             /* dark text */
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0, #eef2ff);
+  color: #0f172a;
 }
 
 section {
@@ -56,6 +56,7 @@ section {
   font-weight: bold;
   text-decoration: none;
   transition: background 0.3s ease;
+}
 
 .hero a:hover {
   background: #1d4ed8;
