@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0, #eef2ff);
+
+  background: radial-gradient(circle at top left, #ffffff, #dbeafe 40%, #93c5fd 100%);
+  
   color: #0f172a;
 }
 
