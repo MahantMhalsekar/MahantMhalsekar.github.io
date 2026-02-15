@@ -35,16 +35,16 @@ section {
 /* HERO TEXT */
 .hero h1 {
   font-size: 3rem;
-  color: #0f172a;
+  color: #ffffff;
 }
 
 .hero h2 {
-  color: #0f172a;
+  color: #93c5fd;
   margin: 10px 0;
 }
 
 .hero p {
-  color: #475569;
+  color: #e2e8f0;
   max-width: 600px;
 }
 
